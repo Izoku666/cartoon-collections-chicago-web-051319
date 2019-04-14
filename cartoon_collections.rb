@@ -7,9 +7,11 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(rings)
   # Your code here
   arr = []
+  rings.collect do |i|
+    arr.push("#{i.capitalize}")
   
 end
 
