@@ -34,4 +34,6 @@ def find_the_cheese(arr_that_is_cheese)
       return i
     else next
   end
+  
+  return
 end
