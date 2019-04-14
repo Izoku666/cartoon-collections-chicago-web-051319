@@ -17,8 +17,8 @@ def summon_captain_planet(rings)
   
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(not_sure_about_this_ref)
+  return not_sure_about_this_ref.
 end
 
 def find_the_cheese# code an argument here
