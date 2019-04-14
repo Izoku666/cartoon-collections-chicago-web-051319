@@ -11,7 +11,9 @@ def summon_captain_planet(rings)
   # Your code here
   arr = []
   rings.collect do |i|
-    arr.push("#{i.capitalize}")
+    arr.push("#{i.capitalize}!")
+  end
+  return arr
   
 end
 
