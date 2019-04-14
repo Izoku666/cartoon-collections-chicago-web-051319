@@ -33,7 +33,7 @@ def find_the_cheese(arr_that_is_cheese)
     if arr_that_is_cheese.include?(i)
       return i
     end
-    else next
+    
   end
   
   return
