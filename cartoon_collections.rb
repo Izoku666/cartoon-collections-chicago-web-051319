@@ -18,9 +18,11 @@ def summon_captain_planet(rings)
 end
 
 def long_planeteer_calls(not_sure_about_this_ref)
-    return not_sure_about_this_ref.map do |i|
-    i.length > 4
+  arr = []
+  not_sure_about_this_ref.map do |i|
+    arr.push(i)
   end
+  return arr
  
 end
 
