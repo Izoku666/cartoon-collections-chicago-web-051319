@@ -33,4 +33,5 @@ def find_the_cheese(arr_that_is_cheese)
     return arr_that_is_cheese.find(cheese_types)
   else
     return "nil"
+  end
 end
