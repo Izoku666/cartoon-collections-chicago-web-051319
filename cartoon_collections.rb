@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   # Your code here
   index = 1
-  dwarves.each do |i|
+  dwarves.collect do |i|
     puts "#{index}. #{i}"
     index += 1
   end
