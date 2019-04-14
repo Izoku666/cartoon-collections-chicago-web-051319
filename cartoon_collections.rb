@@ -18,10 +18,10 @@ def summon_captain_planet(rings)
 end
 
 def long_planeteer_calls(not_sure_about_this_ref)
-  not_sure_about_this_ref.map do |i|
+    return not_sure_about_this_ref.map do |i|
     i.length > 4
   end
-  return 
+ 
 end
 
 def find_the_cheese# code an argument here
