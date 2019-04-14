@@ -19,7 +19,7 @@ end
 
 def long_planeteer_calls(not_sure_about_this_ref)
   arr = []
-  arr = not_sure_about_this_ref.map do |i|
+  arr = not_sure_about_this_ref.any do |i|
     i.length > 4
   end
   return arr
